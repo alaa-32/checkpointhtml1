@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+<body>
+  
+   <header> 
+      <h1>My Portfolio</h1>
+      <!-- navbar: home, about, work, resume, contact -->
+      <nav>
+        <a href="#about">About</a>|
+        <a href="#work">work</a>|
+        <a href="#resume">resume</a>|
+        <a href="#contact">Contact</a>|
+      </nav>
+    </header>
+    <!--“about” section, ”work” section, ”resume” section, -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="img/me1.jpg"alt="Profile Photo" style="width: 200px; height: auto;">
+      <br>
+      <p>Hello! I'm Mezghiche Alaa,currently navigating my first year as a Computer Science student at USTHB</p>
+    
+      <p>I'm fueled by a fascination with how technology shapes our world aim to design and develop websites that </p>
+      <p>not only serve functional needs but also deliver memorable experiences to users around the globe.In my first year,</p>
+      <p>i've dived headfirst into programming languages crucial to my interest such c and phyton,</p>
+      <p>and curently I'm learning weeb developement,Outside of my academic life, I have a passion</p>
+      <p>for art and learning foreign languages, such as Chinese.</p>
+    </section>
+    <section id="work">
+      <h2>work</h2>
+      <p>my major is computer science</p>
+      <iframe width="460" height="215" src="https://www.youtube.com/embed/ly36kn0ug4k?si=xI83kGsy6ns8dgkx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="resume"> 
+      <h2>Resume</h2>
+      <ul>
+      
+       <li>Alaa Mezghiche </li>
+       <li>major computer science </li>
+       <li>web developer</li>
+
+      </ul>
+    </section>
+    <!-- contact section  -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="/submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+          <button type="submit">Submit</button>
+      </form>
+  </section>
+  <footer>
+      <p>&copy; 2024 My Portfolio</p>
+  </footer>
+</body>
+</html>
